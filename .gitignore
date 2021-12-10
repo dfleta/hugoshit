@@ -1,0 +1,8 @@
+venv/
+
+# google example
+quickstart.py
+
+# google auth
+credentials.json
+token*
