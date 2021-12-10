@@ -90,7 +90,7 @@ def main():
         print(json.dumps(document))
         # Crer documento JSON en un archivo para 
         # cargar en MongoATLAS
-        json.dump(document, fp=open('itemBici.json', 'w'), indent=4)
+        json.dump(document, fp=open('./resources/itemBici.json', 'w'), indent=4)
 
 
 if __name__ == '__main__':
