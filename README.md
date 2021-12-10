@@ -13,7 +13,7 @@ El script ejemplo de Google es este:
 
 Antes de ejecutarlo hay que seguir paso a paso esa guía. No es nada complicado. Si lo hacéis tal cual, no puede fallar:
 
-### Paso1 
+### Paso 1
 Crear un proyecto en **Google Cloud** con la cuenta del CIFP y configurar la API de Google Sheets:
 
 https://developers.google.com/workspace/guides/create-project 
@@ -29,6 +29,9 @@ Descargar las credenciales y renombrar el fichero a `credentials.json`
 Lanzar el script `quickstart.py`. 
 La primera ejecución crea el fichero `token.json` que permite el acceso a la hoja de cálculo.
 
+### API 
+Selecciona las funciones de la API Rest de Google Sheets que más se adecuen a tu flujo de trabajo:
+https://developers.google.com/sheets/api/reference/rest/
 
 ## Mi caso
 En mi caso, dispongo un formulario que pide un modelo de bici con sus características:
